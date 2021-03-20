@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import FlashCardList from './FlashCardList';
+import './app.css';
+import * as questions from './Questions.js';
+
+const questionCards = questions.FLASHCARDS;
 
 function App() {
+  const [flashcards, setFlashcards] = useState(questionCards);
+
+  //useEffect(() => {}, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <FlashCardList flashcards={flashcards} />
     </div>
   );
 }
