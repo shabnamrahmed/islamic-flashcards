@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+const abcd = 'abcd';
 
 export default function FlashCard({ flashcard }) {
   const [flip, setFlip] = useState(false);
@@ -8,9 +9,9 @@ export default function FlashCard({ flashcard }) {
   const backEl = useRef();
 
   // function setMaxHeight() {
-  //   const frontHeight = frontEl.getBoundingClientRect;
-  //   const backtHeight = backEl.getBoundingClientReact;
-  //   setHeight(Math.max(frontHeight, backtHeight, 100));
+  //   const frontHeight = frontEl.current.getBoundingClientRect;
+  //   const backHeight = backEl.current.getBoundingClientReact;
+  //   setHeight(Math.max(frontHeight, backHeight, 100));
   // }
 
   // useEffect(setMaxHeight, [
@@ -22,13 +23,18 @@ export default function FlashCard({ flashcard }) {
   return (
     <div
       className={`card ${flip ? 'flip' : ''}`}
+      // style={{ height: height }}
       onClick={() => setFlip(!flip)}
     >
       <div className="front" ref={frontEl}>
-        {flashcard.question}
+        <div className="question">{flashcard.question}</div>
         <div className="options">
-          {flashcard.options.map((option) => {
-            return <div className="option">{option}</div>;
+          {flashcard.options.map((option, index) => {
+            return (
+              <div className="option">
+                {abcd[index]}. {option}
+              </div>
+            );
           })}
         </div>
       </div>

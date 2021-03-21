@@ -10,9 +10,12 @@ function App() {
 
   //useEffect(() => {}, []);
   return (
-    <div className="container">
-      <FlashCardList flashcards={flashcards} />
-    </div>
+    <>
+      <h1 className="header">Click on a flashcard to see the answer</h1>
+      <div className="container">
+        <FlashCardList flashcards={flashcards} />
+      </div>
+    </>
   );
 }
 
