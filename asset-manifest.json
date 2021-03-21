@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/islamic-flashcards/static/css/main.134608df.chunk.css",
-    "main.js": "/islamic-flashcards/static/js/main.b7248afe.chunk.js",
-    "main.js.map": "/islamic-flashcards/static/js/main.b7248afe.chunk.js.map",
+    "main.css": "/islamic-flashcards/static/css/main.c7eab3a7.chunk.css",
+    "main.js": "/islamic-flashcards/static/js/main.d3cb19fa.chunk.js",
+    "main.js.map": "/islamic-flashcards/static/js/main.d3cb19fa.chunk.js.map",
     "runtime-main.js": "/islamic-flashcards/static/js/runtime-main.14d80367.js",
     "runtime-main.js.map": "/islamic-flashcards/static/js/runtime-main.14d80367.js.map",
-    "static/js/2.0859ba16.chunk.js": "/islamic-flashcards/static/js/2.0859ba16.chunk.js",
-    "static/js/2.0859ba16.chunk.js.map": "/islamic-flashcards/static/js/2.0859ba16.chunk.js.map",
+    "static/js/2.501a7fd9.chunk.js": "/islamic-flashcards/static/js/2.501a7fd9.chunk.js",
+    "static/js/2.501a7fd9.chunk.js.map": "/islamic-flashcards/static/js/2.501a7fd9.chunk.js.map",
     "index.html": "/islamic-flashcards/index.html",
-    "static/css/main.134608df.chunk.css.map": "/islamic-flashcards/static/css/main.134608df.chunk.css.map",
-    "static/js/2.0859ba16.chunk.js.LICENSE.txt": "/islamic-flashcards/static/js/2.0859ba16.chunk.js.LICENSE.txt"
+    "static/css/main.c7eab3a7.chunk.css.map": "/islamic-flashcards/static/css/main.c7eab3a7.chunk.css.map",
+    "static/js/2.501a7fd9.chunk.js.LICENSE.txt": "/islamic-flashcards/static/js/2.501a7fd9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.14d80367.js",
-    "static/js/2.0859ba16.chunk.js",
-    "static/css/main.134608df.chunk.css",
-    "static/js/main.b7248afe.chunk.js"
+    "static/js/2.501a7fd9.chunk.js",
+    "static/css/main.c7eab3a7.chunk.css",
+    "static/js/main.d3cb19fa.chunk.js"
   ]
 }
